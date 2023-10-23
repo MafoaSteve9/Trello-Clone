@@ -8,7 +8,8 @@ html, body {
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: #424141;
+    background: rgb(34,126,195);
+background: radial-gradient(circle, rgba(34,126,195,0.3596287703016241) 0%, rgba(0,0,0,1) 100%);
 }
 nav {
     background: #f2f2f2;
@@ -31,8 +32,8 @@ nav a {
     flex-shrink: 0;
     padding: 10px;
     width: 300px;
-    background: #f1f1f1;
-    border-radius: 3px;
+    background: #f1f1f15b;
+    border-radius: 10px;
     margin: 10px;
     cursor: move;
     align-self: flex-start;
